@@ -46,4 +46,8 @@ dependencies:
   - tk=8.6.13=noxft_hd72426e_102
   - tzdata=2025b=h78e105d_0
   - zstd=1.5.7=hb8e6e7a_2
+  - pip:
+      - cyprob==0.1.0
+      - setuptools==80.9.0
+      - wheel==0.45.1
 prefix: /home/bnjenner/anaconda3/envs/pybind11
