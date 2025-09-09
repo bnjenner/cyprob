@@ -5,6 +5,14 @@
 #include <pybind11/pybind11.h>
 #include "definitions.h"
 
+/*
+
+  BNJ - NOTE: This is a modified version of the code from 
+            this forum: https://stackoverflow.com/questions/54738011/pybind11-boostmultiprecisioncpp-int-to-python
+            Thanks to everyone on this forum.
+
+*/
+
 namespace pybind11 {
   namespace detail {
     template <>

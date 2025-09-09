@@ -10,7 +10,8 @@
 // Binomial PMF
 double binomial_pmf(const int &k, const int &n, const float &p) {
 	/*
-		Not optimized to handle infinite precision, so expect some rounding errors.
+		Not expected to handle infinite precision, so expect some 
+			rounding errors if you're getting really crazy with it.
 	*/
 	boost_float res = static_cast<boost_float>(comb(n, k));
 	boost_float bp = p;
