@@ -18,6 +18,8 @@ ext_modules = [
         'cyprob',
         sources=[
             'src/main.cpp',
+            'src/basic_ops.cpp',
+            'src/pmfs.cpp',
         ],
         include_dirs=[
             get_pybind_include(),

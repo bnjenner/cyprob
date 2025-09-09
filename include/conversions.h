@@ -1,10 +1,9 @@
-#include <boost/multiprecision/cpp_int.hpp>
-#include <iomanip>
-#include <pybind11/pybind11.h>
-#include <sstream>
+#pragma once
 
-using boost_int = boost::multiprecision::cpp_int;
-namespace py = pybind11;
+#include <iomanip>
+#include <sstream>
+#include <pybind11/pybind11.h>
+#include "definitions.h"
 
 namespace pybind11 {
   namespace detail {
