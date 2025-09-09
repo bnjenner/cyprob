@@ -53,7 +53,7 @@ setup(
     version='0.1.0',
     author='Bradley',
     author_email='bnjenner@bu.edu',
-    description='Python library for probability and statistics using C++, pybind11, and Boost',
+    description='Python library for probability and statistics using C++, pybind11, and Boost.',
     long_description='',
     ext_modules=ext_modules,
     cmdclass={'build_ext': BuildExt},
