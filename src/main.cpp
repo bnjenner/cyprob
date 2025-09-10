@@ -25,4 +25,6 @@ PYBIND11_MODULE(cyprob, handle) {
 				}, 
 			   "Calculates k combinations of N. Returns combinations.");
 	handle.def("binomial_pmf", &binomial_pmf, "Calculates the probability of an outcome for the Binomal Distribution. Returns float.");
+	handle.def("poisson_pmf", &poisson_pmf, "Calculates the probability of an outcome for the Poisson Distribution. Returns float.");
+
 }
