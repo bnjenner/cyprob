@@ -1,6 +1,8 @@
 # cyprob
 
-Python library for probability and statistics using C++, pybind11, and Boost
+Python library for probability and statistics using C++, pybind11, and Boost.
+
+Side quest for "Computational Biology: Machine Learning Fundamentals" course at BU meant to gain experience in making python libaries in C++.
 
 ## Installation
 
